@@ -3,10 +3,10 @@ using MSCourseScraping.Domain.Interface;
 
 namespace MSCourseScraping.Domain.Service
 {
-    public class ScrapingClient : IScrapingClient
+    public abstract class ScrapingClient : IScrapingClient
     {
-        public string Xpath { get; set; }
-        public string ScrapingUrl { get; set; }
+        public abstract string Xpath { get; }
+        public abstract string ScrapingUrl { get; }
 
         public string GetCourseNameById(string id)
         {

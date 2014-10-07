@@ -12,7 +12,7 @@ namespace MSCourseScraping.Domain.Factory
     {
         public static IScrapingClient CreateScreenScraper(string id)
         {
-                return new ScrapingClient();
+                return new MsCourseScrapingService();
         }
     }
 }

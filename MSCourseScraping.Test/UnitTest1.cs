@@ -9,7 +9,7 @@ namespace MSCourseScraping.Test
         [TestMethod]
         public void TestMethod1()
         {
-
+            const string msCourseName = "Developing ASP.NET MVC 4 Web Applications";
 
         }
     }
