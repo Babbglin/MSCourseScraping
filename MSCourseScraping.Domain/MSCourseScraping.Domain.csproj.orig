@@ -48,6 +48,9 @@
     <Compile Include="Service\ScrapingClient.cs" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <Folder Include="Service\" />
+=======
     <Folder Include="Factory\" />
   </ItemGroup>
   <ItemGroup>
@@ -58,7 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Folder Include="Service\" />
+>>>>>>> 6390f8173d0e30ae62af20d02d2675d3b737c73c
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MSCourseScraping.Test\MSCourseScraping.Test.csproj">

@@ -30,9 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HtmlAgilityPack">
-      <HintPath>..\packages\HtmlAgilityPack.1.4.9\lib\Net45\HtmlAgilityPack.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -42,33 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Factory\ScrapingFactory.cs" />
     <Compile Include="Interface\IScrapingClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service\ScrapingClient.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Factory\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MSCourseScraping\MSCourseScraping.csproj">
-      <Project>{de7e07ca-2f16-422f-aa63-454a8efdfa52}</Project>
-      <Name>MSCourseScraping</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
     <Folder Include="Service\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MSCourseScraping.Test\MSCourseScraping.Test.csproj">
-      <Project>{6ffd522e-cbd7-4341-93e8-e0da451b9218}</Project>
-      <Name>MSCourseScraping.Test</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MSCourseScraping\MSCourseScraping.csproj">
-      <Project>{de7e07ca-2f16-422f-aa63-454a8efdfa52}</Project>
-      <Name>MSCourseScraping</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

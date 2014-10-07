@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MSCourseScraping.Domain.Interface;
+using MSCourseScraping.Domain.Service;
 
 namespace MSCourseScraping.Domain.Factory
 {
