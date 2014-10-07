@@ -5,12 +5,12 @@ namespace MSCourseScraping.Domain.Service
     {
         public override string Xpath
         {
-            get { return "https://www.microsoft.com/learning/en-us/course.aspx?id="; }
+            get { return "id('ctl00_msl2LASOCourseID0EAAABA_headingCourseTitle')"; }
         }
 
         public override string ScrapingUrl
         {
-            get { return "id('ctl00_msl2LASOCourseID0EAAABA_headingCourseTitle')"; }
+            get { return @"https://www.microsoft.com/learning/en-us/course.aspx?id="; }
         }
     }
 }

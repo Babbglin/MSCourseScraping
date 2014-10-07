@@ -59,10 +59,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MSCourseScraping.Test\MSCourseScraping.Test.csproj">
-      <Project>{6ffd522e-cbd7-4341-93e8-e0da451b9218}</Project>
-      <Name>MSCourseScraping.Test</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MSCourseScraping\MSCourseScraping.csproj">
       <Project>{de7e07ca-2f16-422f-aa63-454a8efdfa52}</Project>
       <Name>MSCourseScraping</Name>
